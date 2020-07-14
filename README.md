@@ -1,8 +1,8 @@
 # BitcubeEval
 This is a responsive web application for a registration that will allow the end user to use a website.
 
-##Criteria:
-###Allows only a unique email address to be registered
+## Criteria:
+### Allows only a unique email address to be registered
 -User must supply atleast their first name and last name
 -Password entered by user must have atleast 1 uppercase character, 1 lowercase character, 1 special character and 1 numeric character.
 
