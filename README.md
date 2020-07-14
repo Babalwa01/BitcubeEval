@@ -18,7 +18,7 @@ This is a responsive web application for a registration form that will allow the
 -User enters data in the form input fields and clicks the 'Register' button.
 ## Process
 -Input is validated using regular expressions.</br>
--Password is encrypted.
+-Password is encrypted.</br>
 -The user input (data) gets stored in the website database.
 ## Output
 -Error messages are displayed on the screen if user input was invalid.</br>
