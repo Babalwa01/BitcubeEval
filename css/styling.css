@@ -1,0 +1,97 @@
+body {
+  background: linear-gradient(90deg, rgb(227, 250, 248), rgb(153, 221, 218));
+  margin: 0;
+}
+
+body > main {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.content {
+  background: transparent;
+  height: 50%;
+}
+
+input:valid + .invalid {
+  visibility: hidden;
+}
+
+input:invalid + .invalid {
+  visibility: visible;
+}
+
+.invalid {
+  color: rgb(204, 58, 58);
+}
+
+
+.form-control {
+  background-color: transparent;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-color: black;
+  padding-bottom: 0.3rem;
+  width: 60%;
+  margin-top: 1rem;
+}
+
+.form-control::after {
+  background-color: transparent;
+}
+
+#last-name-text {
+  margin-top: 2rem;
+}
+
+#password-text {
+  margin-top: 2rem;
+}
+
+.form-class {
+  box-shadow: 0 0 0.5rem 0 black;
+  border-radius: 1rem;
+  text-align: center;
+  padding-bottom: 2rem;
+  width: 100%;
+}
+
+.form-control::after {
+  background-color: transparent;
+}
+
+#submit-button {
+  width: 30%;
+  height: 2rem;
+  background-color: cadetblue;
+}
+
+/* For a Tablet sized screen*/
+@media screen and (min-width:768px){
+  .form-control {
+    width: 40%;
+  }
+
+  #submit-button {
+    width: 20%;
+  }
+}
+
+/* For a desktop sized screen*/
+@media screen and (min-width:960px){
+  body > main {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+  .form-control {
+    width: 45%;
+  }
+
+  #submit-button {
+    width: 20%;
+  }
+}
