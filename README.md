@@ -1,5 +1,5 @@
 # BitcubeEval
-This is a responsive web application for a registration that will allow the end user to use a website.
+This is a responsive web application for a registration form that will allow the end user to use a website.
 
 ## Criteria:
 -Allows only a unique email address to be registered</br>
