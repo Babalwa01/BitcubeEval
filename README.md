@@ -25,7 +25,7 @@ This is a responsive web application for a registration form that will allow the
 -Success message is displayed on the screen if data was stored successfully
 
 ## Technologies used
--HTML5, CSS3, PHP, MySQLi</br>
+-HTML5, CSS3, PHP, MySQLi, Apache</br>
 -Git and GitHub</br>
 -Visual Studio Code</br>
 -XAMPP (phpMyAdmin)
