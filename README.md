@@ -1,7 +1,7 @@
 # BitcubeEval
 This is a responsive web application for a registration form that will allow the end user to use a website.
 It also allows the user to login using an email and a password.
-Upon successful login, the user accesses my profile.
+Upon successful login, the user accesses my profile or friends list page.
 
 ## Criteria and Deliverables:
 -Allows only a unique email address to be registered</br>
@@ -20,18 +20,22 @@ Upon successful login, the user accesses my profile.
 
 ## Input
 -User enters data in the form input fields and clicks the 'Register' or 'Login' button.
+-User clicks on profile button to view profile page
+-user clicks on friends button to view friend list page.
+
 ## Process
 -Input is validated using regular expressions.</br>
 -Password is encrypted.</br>
 -The user input (data) gets stored in the website database.
 
 If logging in:
--Application checks if the email address enterd exists in the database. If not it generates a 'no user' error
+-Application checks if the email address entered exists in the database. If not it generates a 'no user' error
 
 ## Output
 -Error messages are displayed on the screen if user input was invalid.</br>
 -Success message is displayed on the screen if data was stored successfully
 -Profile is displayed upon successful login.
+-User can click on the friends button to view list of friends.
 
 ## Technologies used
 -HTML5, CSS3, PHP, MySQLi, Apache</br>
