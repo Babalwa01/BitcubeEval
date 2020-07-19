@@ -9,9 +9,22 @@
 </head>
 <body>
     <header>
-        <div class="image-and-title">
-            <img id="my-image" src="images/BabalwaMbolekwa.jpg" alt="">
-            <h1 id="title">Ms. Babalwa Mbolekwa</h1>
+        <div class="img-menu">
+            <div class="image-and-title">
+                <figure>
+                    <img id="my-image" src="images/BabalwaMbolekwa.jpg" alt="">
+                </figure>
+                <nav>
+                    <ul class="menu-list">
+                        <li><button class="menu-button"><a class="menu-list-link" href="myprofile.php">Profile</a></button></li>
+                        <li><button class="menu-button"><a class="menu-list-link" href="friends.php">Friends</a></button></li>
+                    </ul>
+                </nav>
+                <h1 id="title">Ms. Babalwa Mbolekwa</h1>
+            </div>
+            <nav class="menu">
+
+            </nav>
         </div>
     </header>
     <main>

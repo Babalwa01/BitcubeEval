@@ -2,6 +2,35 @@ body {
     width: 100%;
     margin: 0;
   }
+
+.menu-list {
+    list-style: none;
+    display: flex;
+}
+
+.menu-list-link {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-button {
+    margin-left: 2rem;
+    height: 2rem;
+    width: 4rem;
+    background-color: rgb(15, 66, 66);
+}
+
+.menu-button:hover {
+    background-color: teal;
+  }
+  
+  .list-item:active {
+    background-color: teal;
+  }
+
+.img-menu {
+    display: flex;
+}
   
 .image-and-title {
     width: 100%;
@@ -74,4 +103,12 @@ body {
 
 button {
     background-color: rgb(94, 145, 161);
+}
+
+.images {
+    height: 12rem;
+}
+
+#friends-heading {
+    margin-left: 2rem;
 }
