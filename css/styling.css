@@ -63,6 +63,10 @@ input:invalid + .invalid {
   background-color: transparent;
 }
 
+.remember-text {
+  margin-left: 70px;
+}
+
 #submit-button {
   width: 30%;
   height: 2rem;

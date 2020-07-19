@@ -49,7 +49,7 @@
                     Password must have atleast 1 uppercase, 1 lowercase and 1 special character, 
                     1 number and must be atleast 6 characters long.
                 </section>
-            <input id="submit-button" type="submit" name="register" value="Register">
+            <input id="submit-button" type="submit" name="register" value="Register"> 
         </form>
     </main>
 </body>
